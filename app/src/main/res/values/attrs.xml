@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="GLView">
+        <attr name="is_transparent" format="boolean" />
+        <attr name="mode" format="enum">
+            <enum name="view" value="0"/>
+            <enum name="shape" value="1"/>
+            <enum name="derocate" value="2"/>
+            <enum name="interact" value="3"/>
+            <enum name="fire" value="4"></enum>
+        </attr>
+        <attr name="offset" format="float"/>
+        <attr name="background" format="reference"/>
+    </declare-styleable>   
+</resources>

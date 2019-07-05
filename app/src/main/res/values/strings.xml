@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:ignore="MissingTranslation">
+
+    <string name="email">email:XXXXXX@XX.XXX</string>
+    <string name="my_app_name">哇陶</string>
+    <string name="buy_text">购买</string>
+    <string name="share_text">分享</string>
+    <string name="sell_text">寄卖</string>
+    <string name="receiver">收件人：廖泽宇</string>
+    <string name="account">账号管理</string>
+    <string name="help">使用帮助</string>
+    <string name="fed_back">用户反馈</string>
+    <string name="grade">给我评分</string>
+    <string name="about_us">关于我们</string>
+    <string name="quit">退出当前账号</string>
+    <string name="head_sculpture">头像</string>
+    <string name="nickname">昵称：用户第三方账号昵称</string>
+    <string name="contact_inf">联系方式</string>
+    <string name="phone">电话：18667160595</string>
+    <string name="address">收货地址</string>
+    <string name="pay_way">收款方式</string>
+    <string name="card_num">建设银行             6556 **** **** **** 136</string>
+    <!-- <string name="custom_tishi">在实物绘制中，您添加的自定义图片或文字图案将作线条化处理。您也可以添加已漫画化或素描化的图片，这样实物效果和虚拟效果会更加接近。</string> -->
+<!--     <string name="custom_tishi">贴图照片请用素描化或漫画化大头像和大号文字等为宜</string>  -->
+    <!-- <string name="custom_tishi">图案主题将手工素描化仿制或彩色贴图。</string> -->
+
+    <string name="custom_tishi">如果图案足够清晰，效果会更好</string>
+    <string name="choose_tishi">在此您可以选择在泥坯上绘制青花料形式或在烧制好的白瓷器上以釉上彩的方式来装饰作品。</string>
+    <string name="ffd">ffd</string>
+    <string name="deformation_compute_shader_name">deformation.glsl</string>
+
+</resources>

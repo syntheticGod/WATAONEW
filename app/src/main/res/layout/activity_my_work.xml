@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/white" />
+
+    <HorizontalScrollView
+        android:id="@+id/my_work_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <GridView
+                android:id="@+id/my_work_grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_vertical|fill_horizontal"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@null"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/pottery_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/my_work_scroll_view"
+        android:layout_centerHorizontal="true"
+        android:text="市值￥300"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <me.wowtao.pottery.gl.GLView
+        android:id="@+id/pottery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/pottery_price"
+        android:layout_below="@id/back" >
+    </me.wowtao.pottery.gl.GLView>
+
+    <Button
+        android:id="@+id/pottery_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/my_work_scroll_view"
+        android:layout_alignParentRight="true"
+        android:text="@string/buy_text" />
+
+    <Button
+        android:id="@+id/pottery_sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/pottery_buy"
+        android:layout_alignParentRight="true"
+        android:text="@string/sell_text" />
+
+    <Button
+        android:id="@+id/pottery_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/pottery_sell"
+        android:layout_alignParentRight="true"
+        android:text="@string/share_text" />
+
+</RelativeLayout>

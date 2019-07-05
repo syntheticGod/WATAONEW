@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/my_watao_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/white" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/white" />
+
+    <ImageView
+        android:id="@+id/head_sculpture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/my_watao_bg"
+        android:layout_marginBottom="-25dp"
+        android:layout_marginLeft="25dp"
+        android:contentDescription="@null"
+        android:src="@drawable/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/my_watao_bg"
+        android:layout_toRightOf="@id/head_sculpture"
+        android:background="@android:color/white"
+        android:text="用户名称" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_watao_bg"
+        android:layout_toRightOf="@id/head_sculpture"
+        android:background="@android:color/white"
+        android:text="用户的登录账号" />
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/my_watao_bg"
+        android:background="@android:color/white"
+        android:text="积分 1000" />
+
+    <GridView
+        android:layout_marginTop="50dp"
+        android:id="@+id/shape_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/point"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" >
+
+    </GridView>
+
+</RelativeLayout>

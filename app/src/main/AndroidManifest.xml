@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.wowtao.pottery">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application
+            android:name=".Wowtao"
+            android:allowBackup="true"
+            android:fullBackupContent="true"
+            android:icon="@drawable/launcher_icon"
+            android:largeHeap="true"
+            android:label="@string/my_app_name"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".wxapi.WXEntryActivity"
+                android:exported="true"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name=".activity.ErrorActivity"/>
+        <activity
+                android:name=".activity.ShapeActivity"
+                android:label="哇陶"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter android:label="searchtest">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"
+                      android:host="recipe-app.com"
+                      android:pathPrefix="/recipes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.alipay.sdk.app.H5PayActivity"
+                android:configChanges="orientation|keyboardHidden|navigation"
+                android:exported="false"
+                android:screenOrientation="behind"/>
+        <activity
+                android:name="com.alipay.sdk.auth.AuthActivity"
+                android:configChanges="orientation|keyboardHidden|navigation"
+                android:exported="false"
+                android:screenOrientation="behind"/>
+
+        <activity
+                android:name=".activity.AFFDActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+
+        </activity>
+
+        <activity
+                android:name=".activity.DecorateActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+                android:name=".activity.BottomActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+                android:name=".activity.PotteryFinishedActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+                android:name=".activity.IdeaMarketActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+                android:name=".activity.CollectAndOrderActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+                android:name=".activity.BuyActivity"
+                android:screenOrientation="locked"
+                android:theme="@android:style/Theme.Light.NoTitleBar"
+                android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <meta-data
+                android:name="UMENG_APPKEY"
+                android:value="52d7c98156240b640f030af2">
+        </meta-data>
+
+        <service android:name="com.chillax.service.landDivideServeice"/>
+        <activity android:name="com.chillax.mytest.AddressChoose"/>
+        <activity android:name="com.chillax.mytest.BuyAddress"/>
+        <activity android:name="com.chillax.mytest.PersonAddress"/>
+
+    </application>
+
+</manifest>

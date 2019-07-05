@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE RelativeLayout>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:GLView="http://schemas.android.com/apk/res"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <me.wowtao.pottery.gl.GLViewBottom
+            android:id="@+id/pottery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            GLView:mode="view"/>
+
+    <RadioGroup
+            android:id="@+id/decorate_type"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_d"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+        <RadioButton
+                android:id="@+id/decorate_type_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/decorate_type_center"
+                android:button="@null"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:text="字体"/>
+
+        <RadioButton
+                android:id="@+id/decorate_type_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/decorate_type_center"
+                android:button="@null"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:text="蓝色"/>
+
+        <RadioButton
+                android:id="@+id/decorate_type_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/decorate_type_center"
+                android:button="@null"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:text="黑色"/>
+
+    </RadioGroup>
+
+    <org.lucasr.twowayview.TwoWayView
+            android:layout_below="@id/decorate_type"
+            android:id="@+id/mark_styles"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:background="@drawable/bg_d"
+            android:listSelector="@null"
+            android:drawSelectorOnTop="false">
+
+    </org.lucasr.twowayview.TwoWayView>
+
+    <ImageButton
+            android:id="@+id/back_to_home_page_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/mark_styles"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/last"/>
+
+
+    <Button android:id="@+id/finishMark"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="8dp"
+            android:text="完成"/>
+
+    <Button android:id="@+id/addMark"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/finishMark"
+            android:padding="8dp"
+            android:text="添加落款"/>
+
+</RelativeLayout>

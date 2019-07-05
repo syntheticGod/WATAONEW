@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_add_quesGood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_tishi"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp" />
+
+    <CheckBox 
+        android:id="@+id/cb_isShow"
+        android:textSize="18sp"
+        android:background="@null"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:textColor="@android:color/white"
+        android:text="不再提示" />
+</LinearLayout>

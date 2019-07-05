@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE RelativeLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/buy_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="8dp">
+
+        <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/back"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="填写订单"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/buy_title">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buy_bg"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="40dp">
+
+            <RelativeLayout
+                    android:id="@+id/buy_mail"
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true">
+
+                <TextView
+                        android:id="@+id/buy_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="#deecec"
+                        android:padding="2dp"
+                        android:text="￥156"
+                        android:textColor="#273d49"
+                        android:textSize="15sp"/>
+
+                <ImageView
+                        android:id="@+id/buy_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/buy_price"
+                        android:background="@drawable/buy_mail"
+                        android:contentDescription="@null"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:scaleType="centerInside"/>
+            </RelativeLayout>
+
+            <ImageView
+                    android:id="@+id/buy_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/buy_mail"
+                    android:layout_alignRight="@id/buy_mail"
+                    android:layout_marginBottom="-20dp"
+                    android:layout_marginRight="40dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/buy_watao"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buy_mail"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignLeft="@id/buy_mail"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+            >
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:text="数量:"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content"/>
+
+                <EditText
+                        android:id="@+id/number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="购买数量"
+                        android:text="1"
+                        android:inputType="number"
+                        android:textColor="@android:color/black"
+                />
+
+
+            </LinearLayout>
+
+            <EditText
+                    android:id="@+id/buy_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/buy_mail"
+                    android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@id/buy_mail"
+                    android:hint="姓名"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+
+            <EditText
+                    android:id="@+id/buy_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buy_name"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@id/buy_mail"
+                    android:hint="电话"
+                    android:inputType="phone"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+            <EditText
+                    android:id="@+id/buy_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/buy_phone"
+                    android:layout_alignRight="@+id/buy_phone"
+                    android:layout_below="@id/buy_phone"
+                    android:layout_marginTop="10dp"
+                    android:focusable="false"
+                    android:hint="省市信息"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+            <EditText
+                    android:id="@+id/buy_detail_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/buy_phone"
+                    android:layout_alignRight="@+id/buy_phone"
+                    android:layout_below="@id/buy_address"
+                    android:layout_marginTop="10dp"
+                    android:hint="详细地址"
+                    android:inputType="text"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+            <EditText
+                    android:id="@+id/email_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/buy_detail_address"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/buy_detail_address"
+                    android:layout_below="@id/buy_detail_address"
+                    android:layout_marginTop="10dp"
+                    android:hint="邮箱地址"
+                    android:inputType="textWebEmailAddress"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+
+            <EditText
+                    android:id="@+id/buy_work"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/email_address"
+                    android:layout_marginTop="10dp"
+                    android:hint="作品名称（请给您的大作命名）"
+                    android:inputType="text"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+            <EditText
+                    android:id="@+id/buy_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buy_work"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top|left"
+                    android:hint="备注"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:maxLines="3"
+                    android:minLines="5"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+            <TextView
+                    android:id="@+id/show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buy_remark"
+                    android:layout_marginTop="10dp"
+                    android:text="拉坯作品定制需15个工作日，选择“秘籍”中的器物烧制成瓷的仅需7个工作日，并享受巨幅优惠！"
+                    android:textColor="#233644"
+                    android:textSize="16dp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/buy_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/show"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/buy_submit"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

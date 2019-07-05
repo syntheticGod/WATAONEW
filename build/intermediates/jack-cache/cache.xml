@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\universal-image-loader-1.8.4-with-sources.jar"
+        revision="25.0.2"
+        sha1="eba3ec78458fcb9bdd8bb7eff1a2f6f26f8fa00a">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\universal-image-loader-1.8.4-with-sources-732dfcf36c94643d7d75a99c7138786655209302.jar" />
+    </item>
+    <item
+        jar="R:\SDK\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.1.0-a40dece39feb24df5282c8f8bcd3b8f28039b085.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\alipayutdid.jar"
+        revision="25.0.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\alipayutdid-cb6a71bc6d8d67aaa3f6ace29fc71128128fed08.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
+        revision="25.0.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-f8f12c440b1926e32f17df06b55eca61d8643f8a.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\alipaysecsdk.jar"
+        revision="25.0.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\alipaysecsdk-a528a514840d3619f7e3d64dd75d97c4f18725a6.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\wataonew\affdview\unspecified\jars\libs\Jama-1.0.3.jar"
+        revision="25.0.2"
+        sha1="e83f43a655eb3b349e4d8d7bbd54d565157408fc">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\Jama-1.0.3-be60ebe3dd14c6942cc7f9b57f58ef62a9f48209.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a1137a751e06d937ed1a0c3b190206124fb8cc55.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-62b9484414832e34a2bfaab2e08df124fe06027f.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-288d036f84c6f263cbe37947bca5fbf06d8e8ece.jar" />
+    </item>
+    <item
+        jar="R:\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-d8c7c5170674ff845adfce970443030f0eb030de.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-455cb14af31d56a9169cbd28963845ce8e00bd74.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\libammsdk.jar"
+        revision="25.0.2"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\libammsdk-a8c244e4db08897864476e948256d7a6656f76c0.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\wataonew\affdview\unspecified\jars\classes.jar"
+        revision="25.0.2"
+        sha1="4b49c63fef713162c649fd7c47dd6a916da6d044">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d1f91e0c315c0286bd4593d991a108cfc4671375.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\umeng-update-v2.6.0.1.jar"
+        revision="25.0.2"
+        sha1="e76510af0986842b672c59d29502f3d29866320a">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\umeng-update-v2.6.0.1-b30ff11188729afbf405e3dcd811cc5d4a7c612b.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-63ffa4d5c918351015e3108990507f4448633153.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8f655e58b9b17b06757c872d459de9427433d5e4.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\httpmime-4.1.3.jar"
+        revision="25.0.2"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\httpmime-4.1.3-9ae61687c437f9c32a58f17058498a4cc275e2b1.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-09c77bcb8d2a2b13cee658cf45c186f6cd14f4db.jar" />
+    </item>
+    <item
+        jar="R:\sdk\platforms\android-25\android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-0579dc0b95d7cc06cc02bdaa879ee35901feef03.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d6829239b81c02abc6b2b206cc0e168cf54f623c.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\alipaysdk.jar"
+        revision="25.0.2"
+        sha1="b40481f01537a329936ce54ee2fe15ef2537f010">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\alipaysdk-a28e73de8de6a10014c253edc243a02959eb3f10.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\libs\gson-2.2.4.jar"
+        revision="25.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.2.4-5802428430b71460edcbe1131f7b0ca123398394.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\org.lucasr.twowayview\twowayview\0.1.4\jars\classes.jar"
+        revision="25.0.2"
+        sha1="1a2a997b75e4c94dac7051557be6b95a06566291">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cd220965435bd153a2db5d34f83abcb1f825cd7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\MSI2017\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        revision="25.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\library-1.0.19-424a9070b0bf59d6d6cd85bcd4d66cc9cd8916c7.jar" />
+    </item>
+    <item
+        jar="R:\andiroProject\wataonew\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="R:\andiroProject\wataonew\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-aad3194fe43b8f6ae36154fbb92ec07423bb4152.jar" />
+    </item>
+
+</items>
